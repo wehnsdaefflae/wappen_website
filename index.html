@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Heraldik vor Ort</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+            <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+        -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+    <!--[if lt IE 9]>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
+    <![endif]-->
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+
+    <link rel="stylesheet" type="text/css" href="wappen.css">
+
+  </head>
+
+  <body>
+    <div id="pane">
+      <div id="map_field"></div>
+      <script src="wappen.js"></script>
+      
+      <div id="info_field">
+        <div id="image_field">
+          <a href="https://www.uni-bamberg.de/hist/">
+            <img 
+              id="geelogo" 
+              class="logo"
+              src="https://www.uni-bamberg.de/typo3temp/_processed_/f/8/csm_bereichneu_01_6fdb33c1fc.jpg" 
+              alt="Geschichtswissenschaften und Europäische Ethnologie">
+          </a>
+          <a href="https://www.uni-bamberg.de/ddt/">
+            <img 
+              id="kdwtlogo" 
+              class="logo"
+              src="https://www.uni-bamberg.de/fileadmin/ddt/KDWT_transparent.png"
+              alt="Kompetenzzentrum Denkmalwissenschaften und Denkmaltechnologien">
+          </a>
+        </div>        
+
+        <div id="text_field">
+          <img 
+            id="unibalogo"
+            class="logo"
+            src="https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg/600px-Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg.png" 
+            alt="Universität Bamberg">
+
+          <h1>
+            Heraldik vor Ort
+          </h1>
+          <h2>
+            Spätmittelalterliche und frühneuzeitliche Wappen im öffentlichen Raum
+          </h2>
+
+          Wappen waren in spätmittelalterlichen und frühneuzeitlichen Gesellschaften an vielen Orten, in sehr unterschiedlichen sozialen Milieus und in vielfältigen Medien präsent. Im Seminar werden wir uns, ausgehend von Bamberg und Umgebung, mit Wappen an (und
+          in) Gebäuden beschäftigen. Als gemeinsame Aufgabe werden wir solche Wappen erfassen, katalogisieren und sowohl heraldisch als auch historisch analysieren. Studierende, die keine heraldischen Vorkenntnisse (z.B. aus der Einführung in die Heraldik
+          ) haben, werden gebeten, sich rechtzeitig vor Vorlesungsbeginn zu melden. Im Rahmen des Seminars ist eine Exkursion nach Lauf (Wappensaal) geplant.
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
